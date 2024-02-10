@@ -2,7 +2,8 @@
 <div align="center">
 <a href="https://app-to-do-list-app.netlify.app/" target="_blank"><img align="center" src="https://i.ibb.co/5jNXZjq/2024-02-10-171339.png" height="500"/></a> 
 </div>
-<h3 align="center">Добро пожаловать в приложение Nutrition Analysis! Это приложение использует Edamam API для анализа пищевой ценности и состава продуктов.</h3>
+<h3 align="center">Добро пожаловать в приложение Nutrition Analysis! 
+  Это приложение использует Edamam API для анализа пищевой ценности и состава продуктов.</h3>
 <h2>Установка</h2>
 <p>1. Склонируйте репозиторий на свой компьютер:</p>
 <pre><code>git clone https://github.com/ronikapav/Nutrition-Analysis.git</code></pre>
