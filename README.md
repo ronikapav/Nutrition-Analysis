@@ -31,4 +31,4 @@
 <li>React</li>
 </ul>
 <h2>Автор</h2>
-<p>Приложение создано в рамках обучения <a href="https://t.me/ronikapav">PoniKa</a></p>
+Это приложение было создано <a href="https://t.me/ronikapav">RoniKa</a> в учебных целях.
