@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+body {
+  margin: 0;
+  background-image: url(green-background.jpg);
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu-wrapper {
+  height:100%;
+  margin-top: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.menu-card {
+    width: 300px;
+    height: auto;
+    background: #fff;
+    padding: 40px;
+    margin: 100px auto 20px;
+    z-index: 100;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    font-family: Helvetica, san-serif;
+    line-height: 1.4em;
+    color: #777;
+    border-top: 50px solid #f4f2f2;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .menu-card p {
+    margin: 0 0 34px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .cake-pic {
+    height: 180px;
+    width: 180px;
+    position:relative;
+    background-size: 100% 100%;
+    border-radius: 180px;
+    margin: -200px auto 40px;
+    border: 10px solid #fff;
+    -webkit-box-shadow: 4px 5px 13px -4px rgba(102, 102, 102, 0.28);
+    -moz-box-shadow: 4px 5px 13px -4px rgba(102, 102, 102, 0.28);
+    box-shadow: 4px 5px 13px -4px rgba(102, 102, 102, 0.28);
   }
-}
+
+  h1 {
+    font-size: 2.1em;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    color: #666;
+    padding: 0;
+    margin: 1em 0 0;
+  }
+
+  .dotted-line {
+    border-bottom: 2px dotted #999;
+    display: block;
+    height: 2px;
+    width: 30%;
+    margin: 20px auto;
+  }
+
+  .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 200px;
+  }
+
+  .calories {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: .1em;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  }
